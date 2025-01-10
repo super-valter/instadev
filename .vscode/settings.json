@@ -10,7 +10,8 @@
     "javascript",
     "javascriptreact",
     "typescript",
-    "vue"
+    "vue",
+    "html"
   ],
   "typescript.tsdk": "node_modules/typescript/lib"
 }
