@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="text-center border full-width q-my-md q-pa-lg">
-        Não tem uma conta? <a href="">Cadastre-se</a>
+        <p class="q-mb-none">Não tem uma conta? <a href="">Cadastre-se</a></p>
       </div>
       <p class="text-body1 text-center q-mb-none">Obtenha o aplicativo.</p>
       <div class="flex flex-center q-mb-md">
