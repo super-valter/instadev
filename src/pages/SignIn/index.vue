@@ -34,6 +34,9 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
+defineOptions({
+  name: "SignIn",
+});
 
 const login = ref<string>('')
 const password = ref<string>('')
@@ -49,11 +52,11 @@ const password = ref<string>('')
   .sing-in-button {
     height: 44px;
     border-radius: 5px;
-    background-color: #3797EF;
+    background-color: $insta-blue;
   }
   .facebook-icon {
     font-size: 1.2rem;
-    color: #3797EF;
+    color: $insta-blue;
   }
   .separator {
     width: 35%;
@@ -72,8 +75,5 @@ const password = ref<string>('')
     display: none;
   }
 }
-a {
-  text-decoration: none;
-  color: #3797EF;
-}
+
 </style>
