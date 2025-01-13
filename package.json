@@ -1,8 +1,8 @@
 {
   "name": "instadev",
   "version": "0.0.1",
-  "description": "Ppjeto bootcamp",
-  "productName": "Quasar App",
+  "description": "Projeto bootcamp",
+  "productName": "Instadev Quasar",
   "author": "super-valter <valter@valtinho.com.br>",
   "type": "module",
   "private": true,
