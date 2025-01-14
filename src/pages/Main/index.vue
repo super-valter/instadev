@@ -3,6 +3,7 @@
     <div class="full-width q-mt-md">
       <top-bar />
       <q-separator class="full-width q-mt-sm" />
+      teste
     </div>
     <div>
       <q-separator class="full-width q-mb-sm" />
