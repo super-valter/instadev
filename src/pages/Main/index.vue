@@ -4,6 +4,10 @@
       <top-bar />
       <q-separator class="full-width q-mt-sm" />
     </div>
+    <div class="q-mt-md">
+      <stories-update />
+      <q-separator class="full-width q-mb-sm" />
+    </div>
     <div>
       <q-separator class="full-width q-mb-sm" />
       <botton-bar />
@@ -17,8 +21,6 @@ defineOptions({
 
 import TopBar from "components/TopBar/index.vue";
 import BottonBar from "components/BottonBar/index.vue";
+import StoriesUpdate from "components/StoriesUpdate/index.vue";
 </script>
 
-<style lang="scss" scoped>
-
-</style>
