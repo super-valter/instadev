@@ -1,14 +1,14 @@
 <template>
-  <q-page>
-    <div class="full-width q-mt-md">
+  <div>
+    <div class="q-pt-md">
       <top-bar />
       <q-separator class="full-width q-mt-sm" />
     </div>
-    <div>
-      <q-separator class="full-width q-mb-sm" />
+    <div class="container-bottom absolute-bottom q-pb-md">
+      <q-separator class="full-width q-mb-md" />
       <botton-bar />
     </div>
-  </q-page>
+  </div>
 </template>
 <script setup lang="ts">
 defineOptions({
@@ -16,9 +16,11 @@ defineOptions({
 });
 
 import TopBar from "components/TopBar/index.vue";
-import BottonBar from "components/BottonBar/index.vue";
+import BottonBar from "components/BottomBar/index.vue";
 </script>
 
 <style lang="scss" scoped>
-
+.container-bottom{
+  background-color: #FAFAFA;
+}
 </style>
