@@ -17,6 +17,7 @@
         src="https://picsum.photos/500/300"
         :ratio="1"
         @dblclick="addLikeInPost()"
+        class="cursor-pointer"
       >
         <q-icon
           name="fa-solid fa-heart background-font-degrade"
