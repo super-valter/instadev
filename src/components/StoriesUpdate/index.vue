@@ -27,7 +27,7 @@ defineOptions({
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(#FBAA47, #D91A46, #dc2743, #cc2366, #bc1888, #9c27b0);
+  background-image: $background-degrade;
   padding: 2px;
   .avatar{
     width: 58px !important;
