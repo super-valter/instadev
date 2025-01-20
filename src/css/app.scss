@@ -3,3 +3,9 @@ a {
     text-decoration: none;
     color: $insta-blue;
   }
+
+.background-font-degrade {
+  background-image: $background-degrade;
+  color: transparent;
+  background-clip: text;
+}
