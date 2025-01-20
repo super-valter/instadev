@@ -9,7 +9,7 @@
       <stories-update />
       <q-separator class="full-width q-mb-sm" />
     </div>
-    <div v-for="i in 10" :key="i" class="flex flex-center q-mb-md">
+    <div v-for="i in 10" :key="i" class="flex flex-center q-mb-md"  style="margin-bottom: 65px;">
       <post />
     </div>
 

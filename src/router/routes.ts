@@ -5,9 +5,9 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('src/pages/IndexPage.vue') },
-      { path: 'signin', component: () => import('src/pages/SignIn/index.vue') },
+      { path: 'signin', component: () => import('src/pages/SignIn/index.vue'), alias: '' },
       { path: 'main', component: () => import('src/pages/Main/index.vue') },
+      { path: 'my-area', component: () => import('src/pages/MyArea/index.vue') },
     ],
   },
 
