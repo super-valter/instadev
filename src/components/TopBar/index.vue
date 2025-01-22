@@ -6,28 +6,13 @@
       <q-img src="../../assets/reels.svg" width="24px" class="q-mr-md" />
       <q-img src="../../assets/direct.svg" width="24px" />
     </div>
-    <!-- <div class="q-mt-md">
-      <q-toggle
-        :model-value="$q.dark.isActive"
-        :checked-icon="symRoundedDarkMode"
-        :unchecked-icon="symRoundedLightMode"
-        size="xl"
-        @update:model-value="$q.dark.toggle()"
-      />
-    </div> -->
   </div>
 </template>
 
 <script setup lang="ts">
 defineOptions({
-  name: "TopBar",
-});
-
-/* import {
-  symRoundedDarkMode,
-  symRoundedLightMode,
-} from '@quasar/extras/material-symbols-rounded'; */
-
+  name: 'TopBar',
+})
 </script>
 
 <style lang="scss" scoped>
