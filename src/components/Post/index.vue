@@ -1,5 +1,5 @@
 <template>
-  <div class="column box-post">
+  <div class="column box-post conteiner-standard">
     <div class="flex flex-center justify-between q-pa-sm post-user">
       <div class="row items-center">
         <q-avatar class="q-mr-sm">
@@ -88,9 +88,6 @@ const addLikeInPost = () => {
 </script>
 
 <style lang="scss" scoped>
-.box-post {
-  width: 400px;
-}
 .img {
   display: contents;
 }

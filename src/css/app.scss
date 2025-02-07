@@ -1,11 +1,16 @@
 // app global css in SCSS form
 a {
-    text-decoration: none;
-    color: $insta-blue;
-  }
+  text-decoration: none;
+  color: $insta-blue;
+}
 
 .background-font-degrade {
   background-image: $background-degrade;
   color: transparent;
   background-clip: text;
+}
+
+.conteiner-standard {
+  width: 400px;
+  background-color: aquamarine;
 }
